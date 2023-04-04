@@ -119,7 +119,7 @@ a {
 }
 
 .heading-primary {
-  font-size: 4.5rem;
+  font-size: 3rem;
   letter-spacing: 1px;
   line-height: 1.3;
   color: #000;
@@ -213,7 +213,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5rem;
+  padding: 1.0rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -231,11 +231,11 @@ a {
 
 .main-header__logo-img-cont {
   margin-right: 1.5rem;
-  width: 4rem;
-  height: 4rem;
+  width: 7rem;
+  height: 7rem;
   overflow: hidden;
-  border-radius: 10rem;
-  background: rgba(var(--themeColor), 1);
+  /* border-radius: 10rem;
+  background: rgba(var(--themeColor), 1); */
 }
 
 .main-header__sm-scr-nav-btn {
@@ -357,11 +357,11 @@ a {
 .main-header__logo-img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .main-header__logo-text {
-  font-size: 2.2rem;
+  font-size: 2rem;
   letter-spacing: 1px;
   color: #000;
   font-weight: 400;
@@ -399,14 +399,36 @@ a {
   height: 100vh;
   min-height: 80rem;
   max-height: 120rem;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(218, 230, 212), rgb(31, 255, 28)) repeat scroll 0% 0%;
+  /* background: purple; */
+  /* color: white; */
+  clip-path: polygon(0 0%, 100% 0, 100% 80%, 0 100%);
+  /* padding: 10rem 20%; */
 }
 
 .home-hero__content {
-  max-width: 120rem;
+  max-width: 100rem;
   margin: auto;
+
   width: 90%;
 
   animation: downToUp 0.8s;
+}
+.home-hero__aboutimage {
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8rem;
+
+}
+
+.home-hero__me-img {
+  width: 35rem;
+  height: 35rem;
+  border-radius: 35rem;
+  margin-left: 6rem;
+  margin-top: 4rem
+  /* object-fit: fill; */
 }
 
 @media (max-width: 37.5em) {
@@ -707,7 +729,10 @@ a {
 /* Contact */
 
 .contact {
-  background: rgba(250, 250, 250, 1);
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(218, 230, 212), rgb(31, 255, 28)) repeat scroll 0% 0%;
+  /* background: purple; */
+  /* color: white; */
+  clip-path: polygon(0% 5%, 100% 0, 100% 100%, 0 100%);
 }
 
 .contact__form-cont {

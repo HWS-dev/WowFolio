@@ -1,0 +1,19 @@
+{
+  "name": "wowfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "script.js",
+  "scripts": {
+    "build": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HWS-dev/WowFolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HWS-dev/WowFolio/issues"
+  },
+  "homepage": "https://github.com/HWS-dev/WowFolio#readme"
+}
